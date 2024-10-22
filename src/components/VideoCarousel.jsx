@@ -26,7 +26,7 @@ const VideoCarousel = () => {
         gsap.to("#slider", {
             transform: `translateX(${-100 * videoId}%)`,
             duration: 2,
-            ease: "power2.inOut", 
+            ease: "power2.inOut",
         });
 
         // video animation to play the video when it is in the view
