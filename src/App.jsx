@@ -3,6 +3,7 @@ import Hero from "./components/Hero.jsx";
 import Highlights from "./components/Highlights.jsx";
 import Model from "./components/Model.jsx";
 import Features from "./components/Features.jsx";
+import HowItWorks from "./components/HowItWorks.jsx";
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
           <Highlights/>
           <Model/>
           <Features/>
+          <HowItWorks/>
       </main>
   )
 }
